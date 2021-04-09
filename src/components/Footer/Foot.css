@@ -1,0 +1,27 @@
+.Foot{
+    position: absolute;
+    bottom: 17px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-l{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-l i{
+    padding-right: 10px;
+}
+
+.foot-c{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.foot-r , .photo {
+    font-weight: 300;
+}

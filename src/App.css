@@ -1,38 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1437652633673-cc02b9c67a1b?ixlib=rb-0.3.5&q=99&fm=jpg&crop=entropy&cs=tinysrgb&w=2048&fit=max&s=cf09ca7aeb4b10f03039c08bd5841cfc?momo_cache_bg_uuid=209f6a1d-91cf-4f72-b741-2b6d2f2c6f15");
+  background-size: cover;
+  height: 97vh;
+  padding: 10px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* background: rgba(0, 0, 0, 0.3);  */
+  opacity: 1;
+  background-position-y:-20vh;
 }
