@@ -15,7 +15,7 @@
 }
 
 .nav-comp i{
-    padding: 17px;
+    padding: 11.6px 17px;
 }
 
 .fa-cloud-sun{
@@ -24,4 +24,27 @@
 
 .nav h1 , .nav h3{
     font-weight:100;
+}
+
+.btn1{
+    all: unset;
+}
+
+.search-bar {
+    padding: 11px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #ffffff;
+    border-radius: 0;
+    background-position: 100% center;
+    background-color: transparent;
+
+}
+
+.search>i:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.search{
+    margin-top: 5px;
 }

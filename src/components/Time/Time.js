@@ -5,8 +5,10 @@ function Time(props) {
 
   const dt = new Date();
   const hours = dt.getHours();
-  const mins = dt.getMinutes();
-  const sec = dt.getSeconds();
+  const mins = (dt.getMinutes() < 10 ? '0' : '') + dt.getMinutes();
+  // const s = dt.getSeconds();
+  const sec = (dt.getSeconds() < 10 ? '0' : '') + dt.getSeconds();
+  // const sec = (s<10?'0':'' )+ s ;
     
   const [time, setTime] = useState(hours + ":" + mins + ":" + sec) ;
 
@@ -14,9 +16,9 @@ function Time(props) {
     setInterval(() => {
         const dt = new Date();
         const hours = dt.getHours();
-        const mins = dt.getMinutes();
-        const sec = dt.getSeconds();
-      setTime(hours + ":" + mins+ ":" + sec)
+        const mins = (dt.getMinutes() < 10 ? '0' : '') + dt.getMinutes();
+        const sec = (dt.getSeconds() < 10 ? '0' : '') + dt.getSeconds();
+      setTime(hours + ":" + mins + ":" + sec)
     }, 1000)
   }, [])
 
